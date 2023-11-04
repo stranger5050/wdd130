@@ -19,6 +19,7 @@ nav a {
   padding: 35px;
   display: flex;
   justify-content: space-around;
+  display: inline;
 
 }
 #hero, #hero-box, #hero-img {
@@ -63,8 +64,11 @@ nav a {
 }
 
 main section {
+  margin: 200px 0 ;
     text-align: center;
     box-sizing: border-box;
+    grid-column: 8/10;
+    grid-row: 2/3;
 
 
 }
